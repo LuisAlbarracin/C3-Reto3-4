@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luis Vicente Albarracin" />
-    <meta name="description" content="El libro de campo 2016, le permite al agricultor programar, controlar
-    y registrar las actividades que se realizan en la finca relacionadas
-    al cultivo de palma de aceite." />
     <link rel="stylesheet" href="css/style.css">
-    <title>Libro Campo</title>
+    <title>Libro de Campo</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header_h1">LIBRO DE CAMPO 2016</h1>
-    </header>
-    <nav class="nav">
-        <ul class="nav_ul">
-            <li class="nav_ul--li">Inicio</li>
-            <li class="nav_ul--li">Servicios</li>
-            <li class="nav_ul--li">Contacto</li>
-        </ul>
-    </nav>
-    <main class="main">
-        <section class="main_section">
-            <article class="main_section_p">
+
+    <div class="contenedor">
+        <header class="header">
+            <h2>LIBRO DE CAMPO 2016</h2>
+        </header>
+
+        <main class="contenido">
+            <article class="art_p">
                 El libro de campo 2016, le permite al agricultor programar, controlar
                 y registrar las actividades que se realizan en la finca relacionadas
                 al cultivo de palma de aceite. Esta información sirve como base para
@@ -36,7 +27,7 @@
                 productividad.
             </article>
 
-            <article class="main_section_p">
+            <article class="art_p">
                 Este documento está conformado por un planeador mensual en el cuál el
                 palmicultor con el apoyo del equipo técnico programará cada una de las
                 actividades propias de su cultivo, una serie de formatos en los cuales
@@ -44,71 +35,90 @@
                 aplicación de fertilizantes, aplicacion de agroquímicos, cosecha,
                 entre otros).
             </article>
-        
-        </section>
 
-        <section class="second_section">
-            <article class="second_art">
-                <h3 class="second_art--h3">VENTAJAS</h3>
-                <ol class="second_art--ol">
-                    <li class="second_art--li">
-                        Se tiene un mejor control de cada una de las actividades que
-                        realiza el pequeño productor en su cultivo.
-                    </li>
-                    <li class="second_art--li">
-                        Se pueden tomar decisiones del manejo del cultivo con base en
-                        información real.
-                    </li>
-                    <li class="second_art--li">
-                        Se determina de manera sencilla la productividad de su negocio y
-                        sus principales costos.
-                    </li>
-                    <li class="second_art--li">
-                        Se puede demostrar el cumplimiento de los principios y críterios
-                        de la RSPO
-                    </li>
-                    <li class="second_art--li">
-                        Se obtiene una adecuada organización y distribución de los
-                        recursos económicos contribuyendo al mejoramiento de la calidad de
-                        vida en su núcleo familiar.
-                    </li>
-                    <li class="second_art--li">
-                        Se tiene un control y seguimiento de las condiciones de seguridad,
-                        con las cuáles cuentan los trabajadores en sus actividades
-                        diarias.
-                    </li>
-                </ol>
-            </article>
-        </section>
-        <aside class="aside">
-            <article class="aside_art">
-                <h3 class="aside_">CONTENIDO</h3>
-                <ol class="aside_art_ol">
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Introducción</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Datos personales</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Mapeo de la plantación</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Resumen financiero</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Plan de fertilización</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Registro de compras</a></li>
-                    <li class="aside_art_ol_li"><a href="#" class="aside_art_ol_li--p">Control de aplicación de fertilizante</a></li>
-                    <li class="aside_art_ol_li">
-                        <a href="#" class="aside_art_ol_li--p">Registro de incidentes y accidentes de trabajo</a>
-                    </li>
-                    <li class="aside_art_ol_li">
-                        <a href="#" class="aside_art_ol_li--p">Ingresos, egresos y utilidad mensual y anual</a>
-                    </li>
-                    <li class="aside_art_ol_li">
-                        <a href="#" class="aside_art_ol_li--p">Gráfica de producción en el año versus censo de producción</a>
-                    </li>
-                </ol>
-            </article>
+            <figure class="art_fi">
+                <img src="img/palma.jpg" alt="Imagen del cultivo de palma" class="art_fi--img">
+            </figure>    
+        </main>
+
+        <aside class="sidebar">
+            <h3 class="con_h3">CONTENIDO</h3>
+            <ol class="con_ol">
+                <li class="con_li"><a href="#" class="con_li--a">Introducción</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Datos personales</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Mapeo de la plantación</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Resumen financiero</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Plan de fertilización</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Registro de compras</a></li>
+                <li class="con_li"><a href="#" class="con_li--a">Control de aplicación de
+                        fertilizante</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Control de hallazgos y especies naturales en el cultivo</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Revisión y Capturas de Rhynchophorus Palmarum</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Casos de incidencias fítosanitarias</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Registro de incidentes y accidentes de trabajo</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Registro de pago a trabajadores</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Ingresos, egresos y utilidad mensual y anual</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Gráfica de producción en el año versus censo de
+                        producción</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Anexo 1 Directorio Telefónico</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Anexo 2 Registro pluviométrico</a>
+                </li>
+                <li class="con_li">
+                    <a href="#" class="con_li--a">Plan de trabajo -cultivo de palma de aceite sostenible</a>
+                </li>
+            </ol>
         </aside>
-    </main>
 
+        <div class="widget-1">
+            <h3 class="ven--h3">VENTAJAS</h3>
+            <ol class="ven_ol">
+                <li class="ven_ol--li">
+                    Se tiene un mejor control de cada una de las actividades que
+                    realiza el pequeño productor en su cultivo.
+                <li class="ven_ol--li">
+                    Se pueden tomar decisiones del manejo del cultivo con base en
+                    información real.
+                <li class="ven_ol--li">
+                    Se determina de manera sencilla la productividad de su negocio y
+                    sus principales costos.
+                <li class="ven_ol--li">
+                    Se puede demostrar el cumplimiento de los principios y críterios
+                    de la RSPO
+                <li class="ven_ol--li">
+                    Se obtiene una adecuada organización y distribución de los
+                    recursos económicos contribuyendo al mejoramiento de la calidad de
+                    vida en su núcleo familiar.
+                <li class="ven_ol--li">
+                    Se tiene un control y seguimiento de las condiciones de seguridad,
+                    con las cuáles cuentan los trabajadores en sus actividades
+                    diarias.
+                </li>
+            </ol>
+        </div>
 
-    <footer class="footer">
-        <i class="footer_i">©2021 - Desarrollado por Luis Vicente Albarracin</i>
-    </footer>
+        <footer class="footer">
+            <i>2021 - Desarrollado por Luis Vicente Albarracin</i>
+        </footer>
+    </div>
+
 </body>
 
 </html>
